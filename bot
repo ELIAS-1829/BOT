@@ -11,7 +11,7 @@ key=$(sed 's/ //g' /data/data/com.termux/files/usr/bin/bot.txt)
 api_key="$key"
 mensaje=$1
 
-btn=&& echo -e "         $azul<=======$amar[$purp BOT $amar]$azul=======>" && echo "" && echo -e "$rojo     el resultado de la busqueda  " && echo -e "  $amar    [$verd $mensaje$amar] $purp es " && echo "" && echo -e "$azul          ↓    ↓    ↓    ↓    ↓"
+btn=&& echo -e "         $azul<=======$amar[$purp BOT $amar]$azul=======>" && echo "" && echo -e "$rojo     el resultado de la busqueda  " && echo -e "  $amar    [$verd $mensaje$amar ] $purp es " && echo "" && echo -e "$azul          ↓    ↓    ↓    ↓    ↓"
 todo () {	
 if [[ $mensaje == "" ]];then
 	echo "      para usar el asistente escribe:"

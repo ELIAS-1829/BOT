@@ -1,6 +1,5 @@
 #!/bin/bash
 clear
-GNU nano 7.1            install.sh
 pkg install ncurses-utils -y
 pkg install jq -y
 
@@ -36,3 +35,6 @@ $azul para ejecutar a escribe ejecute el comando que le saldra a continuacion
 $verd bot $amar "mas la busqueda o pregunta " $azulpruevalo no te arepentiras ! 
 
 EJEMPLO = bot "como se dise hola en ingles "   "
+
+
+rm -rf /data/data/com.termux/files/home/BOT
