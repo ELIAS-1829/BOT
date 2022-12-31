@@ -5,12 +5,13 @@ Para usar la herramienta despues de ser instalada tenes que poner
 bot "lo que quieras buscar y despues vuelves a poner dobles comilla para que pueda buscar "
 
 
-*Comandos de instalacion 
+*Comandos de instalacion*
+
 apt update && apt upgrade -y
 
 pkg install git
 
-git clone 
+git clone https://github.com/ELIAS-1829/BOT
 
 cd BOT
 
