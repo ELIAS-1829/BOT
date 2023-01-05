@@ -11,6 +11,10 @@ apt update && apt upgrade -y
 
 pkg install git
 
+pkg install ruby 
+
+gem install lolcat 
+
 git clone https://github.com/ELIAS-1829/BOT
 
 cd BOT
